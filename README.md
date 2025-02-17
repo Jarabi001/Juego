@@ -50,6 +50,13 @@ Si estás en macOS o Linux, puede que necesites usar `python3` en lugar de `pyth
    python3 adivina_el_numero.py
    ```
 
+### Ver el Diagrama de Flujo (Raptor)
+
+1. Descarga e instala **Raptor** desde su sitio web oficial: [Raptor Official Website](http://raptor.martincarlisle.com/).
+2. Abre los archivos `.rap` con el programa **Raptor** para ver el diagrama de flujo del juego.
+3. Los archivos `.rap` se encuentran en la carpeta del repositorio lamada "Diagramas de flujo". Al abrirlos, podrás visualizar cómo se estructura el algoritmo del juego paso a paso.
+
+
 ## Estructura del Repositorio 📚
  ```bash
 Adivina-el-Numero/
