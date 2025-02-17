@@ -55,8 +55,8 @@ Si estás en macOS o Linux, puede que necesites usar `python3` en lugar de `pyth
 Adivina-el-Numero/
 │-- Diagramas de flujo        # Diagramas del juego
 │-- .gitignore.txt            # Archivos a excluir del control de versiones
-│-- adivina_el_numero.py      # Código principal del juego
 │-- README.md                 # Documentación del proyecto
+│-- adivina_el_numero.py      # Código principal del juego
 ```
 
 ## Autor ✨
