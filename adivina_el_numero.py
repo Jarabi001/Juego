@@ -1,21 +1,7 @@
 
-
-
-"""
-El primer paso es llamar a la libreria "random" y determinar la variable historico_global,
-esto permitira almacenar los datos de las partidas en ella e imprimirla más adelante.
-"""
-
 import random
 
 historico_global = []
-
-"""
-Luego declaramos funciones, para poder hacer un menú interactivo, para el usuario o jugador.
-las funciones a hacer son: Obtener_limite, jugar_partida, mostrar_estadiscticas, ver ultimas
-estadisticas y por ultimo la función donde estaran todas las funciones, que es la de menú
-principal. 
-"""
 
 def obtener_limite():
     while True:
@@ -102,19 +88,8 @@ def jugar_partida():
             print(f"¡El número es {rango_actual[0]}!")
             resultado = "Adivinó"
         else:
-            while True:
-                try:
-                    intento_final = int(input("Última oportunidad, ingrese su suposición final: "))
-                    break
-                except ValueError:
-                    print("Por favor, ingrese un número válido.")
-
-            if intento_final == numero_secreto:
-                print("¡Felicidades! Has adivinado el número.")
-                resultado = "Adivinó"
-            else:
-                print(f"Incorrecto. El número secreto era {numero_secreto}.")
-                resultado = "No adivinó"
+            print(f"Te has quedado sin intentos y no adivinaste el número. El número secreto era {numero_secreto}.")
+            resultado = "No adivinó"
 
         historico.append({
             "jugador": nombre,
